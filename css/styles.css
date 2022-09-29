@@ -1,0 +1,116 @@
+#contenedor1{
+  border: 3px solid brown;
+  border-radius: 22px;
+  text-align: center;
+  background-color: #eee;
+}
+#contenedor2{
+  border: 3px solid gold;
+  border-radius: 22px;
+  text-align: center;
+}
+
+#sortable { list-style-type: none; margin: 0; padding: 0; width: 100%; }
+  #sortable li { margin: 0 3px 3px 3px; padding: 0.4em; padding-left: 1.5em; font-size: 1.4em; height: 18px; }
+  #sortable li span { position: absolute; margin-left: -1.3em;}
+
+  #l1 {
+    /* no relevante */
+    
+    width: 50;
+    background-color: brown;
+
+
+  }
+
+  #l2 {
+    /* no relevante */
+    
+    width: 50;
+    background-color: blue;
+
+
+  }
+
+  #l3 {
+    /* no relevante */
+    
+    width: 50;
+    background-color: greenyellow;
+
+
+  }
+
+  #l4{
+    /* no relevante */
+    
+    width: 50;
+    background-color: yellow;
+
+
+  }
+
+  #l5 {
+    /* no relevante */
+    
+    width: 50;
+    background-color: purple;
+
+
+  }
+  #l6 {
+    /* no relevante */
+    
+    width: 50;
+    background-color:palevioletred;
+
+
+  }
+
+  #l7 {
+    /* no relevante */
+    
+    width: 50;
+    background-color:orange;
+
+
+  }
+
+  #draggable{
+    background-color: yellow;
+  }
+
+  #draggable1{
+    background-color: red;
+  }
+
+  #draggable2{
+    background-color: blue;
+  }
+
+  #draggable3{
+    background-color: rgb(0, 255, 13);
+  }
+
+  #draggable { width: 100px; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; }
+  #droppable { width: 150px; height: 150px; padding: 0.5em; float: left; margin: 10px; }
+
+  #draggable1 { width: 100px; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; }
+  #droppable1 { width: 150px; height: 150px; padding: 0.5em; float: left; margin: 10px; }
+
+  #draggable2 { width: 100px; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; }
+  #droppable2 { width: 150px; height: 150px; padding: 0.5em; float: left; margin: 10px; }
+
+  #draggable3 { width: 100px; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; }
+  #droppable3 { width: 150px; height: 150px; padding: 0.5em; float: left; margin: 10px; }
+
+  .toggler { width: 500px; height: 200px; position: relative; }
+    #button { padding: .5em 1em; text-decoration: none; }
+    #effect { width: 240px; height: 170px; padding: 0.4em; position: relative; background: #fff; }
+    #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+
+    .toggler { width: 500px; height: 200px; position: relative; }
+    #button { padding: .5em 1em; text-decoration: none; }
+    #effect { width: 240px;  padding: 1em; border: 1px solid #000; background: #eee; color: #333; }
+    .newClass { text-indent: 40px; letter-spacing: .4em; width: 410px; height: 120px; padding: 30px; margin: 10px; font-size: 1.1em; }
+    
